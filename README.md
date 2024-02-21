@@ -13,8 +13,25 @@
 
 ## Usage:
 1.Run the main.py script(see more configurations in the code):
+    
     python src/main.py --maldir path_to_malware --gooddir 
     path_to_benign --output_path path_to_merged_graphs
 
 Two new folders are generated in ./graphs and ./graphs_to_train
-    123
+    
+    # generated MRDG
+    ./graphs/
+    └── $input_dir_name
+        ├── apk1.gml
+        ├── apk2.gml
+        ├── apk3.gml
+        ├── ...
+                  
+    # generated FCGs
+    ./graphs/
+    └── $input_dir_name
+        └── $apk_name
+            ├── callgraph.gml
+            ├── libbspatch.gml
+            ├── libroot.gml
+            ├── ...
