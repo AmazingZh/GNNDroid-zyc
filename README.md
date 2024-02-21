@@ -12,9 +12,9 @@
     radare2 4.2
 
 ## Usage:
-
-    cd gnndroid
-
-    python src/main.py --maldir path_to_malware --gooddir
-    
+1.Run the main.py script(see more configurations in the code):
+    python src/main.py --maldir path_to_malware --gooddir 
     path_to_benign --output_path path_to_merged_graphs
+
+Two new folders are generated in ./graphs and ./graphs_to_train
+    123
