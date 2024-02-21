@@ -4,11 +4,8 @@
 ## Envrioment Requirement:
 
     python 3.8
-
     networkx 2.5
-
     androguard 3.3.5
-
     radare2 4.2
 
 ## Usage:
